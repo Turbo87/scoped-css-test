@@ -2,6 +2,18 @@
 
 {{outlet}}
 
-{{! The following component displays Ember's default welcome message. }}
-<WelcomePage />
-{{! Feel free to remove this! }}
+<div style="padding: 20px;">
+  <h1>ember-scoped-css Integration Test</h1>
+
+  <ExampleCard
+    @title="First Card"
+    @content="This is the first example card demonstrating scoped CSS. The styles are automatically scoped to this component."
+    @buttonText="Click Me"
+  />
+
+  <ExampleCard
+    @title="Second Card"
+    @content="This is the second example card with the same component but different content. Notice how the styles don't leak between components."
+    @buttonText="Learn More"
+  />
+</div>

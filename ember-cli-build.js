@@ -13,6 +13,9 @@ module.exports = function (defaults) {
         DEPRECATE_STORE_EXTENDS_EMBER_OBJECT: false,
       },
     },
+    'ember-scoped-css': {
+      layerName: 'components',
+    },
     // Add options here
   });
 
