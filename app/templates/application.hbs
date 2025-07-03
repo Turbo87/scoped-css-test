@@ -1,9 +1,20 @@
 {{page-title "ScopedCssTest"}}
 
+<nav style="background: #f8f9fa; padding: 15px 20px; border-bottom: 1px solid #dee2e6; margin-bottom: 20px;">
+  <div style="display: flex; gap: 20px; align-items: center;">
+    <h1 style="margin: 0; font-size: 1.5rem; color: #333;">ember-scoped-css Demo</h1>
+    <div style="display: flex; gap: 15px;">
+      <a href="/" style="color: #007bff; text-decoration: none; font-weight: 500;">Home</a>
+      <a href="/dashboard" style="color: #007bff; text-decoration: none; font-weight: 500;">Dashboard</a>
+    </div>
+  </div>
+</nav>
+
 {{outlet}}
 
 <div style="padding: 20px;">
-  <h1>ember-scoped-css Integration Test</h1>
+  <h2>Component Scoped CSS Examples</h2>
+  <p style="margin-bottom: 30px; color: #666;">These components demonstrate scoped CSS at the component level:</p>
 
   <ExampleCard
     @title="First Card"

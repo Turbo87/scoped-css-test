@@ -15,6 +15,7 @@ module.exports = function (defaults) {
     },
     'ember-scoped-css': {
       layerName: 'components',
+      additionalRoots: ['templates/'],
     },
     // Add options here
   });
